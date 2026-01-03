@@ -1,4 +1,4 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Mode make by thanhphok (Og Hunger(new) and Nhankg", true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Mode make by nhankg and thanhphok (Og Hunger(new)", true)
 
 -- Door Changer Floor 2 And Sound
 coroutine.wrap(function()
@@ -30,16 +30,9 @@ cue2.Volume = 5
 cue2.PlaybackSpeed = 0.25
 cue2:Play()
 
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fragment mode remake has actives", true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fragment mode v5 has actives", true)
 wait(2)
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Credits flashlight toThe_LOSTW3R,and nhankg & remake image entity GuestlyTheLastGuest & OG Hunger(new) ", true)
-
-local Lighting = game:GetService("Lighting")
-Lighting.Ambient = Color3.new(0, 0, 0)
-Lighting.Brightness = 0.1
-Lighting.FogEnd = 60
-Lighting.FogStart = 45
-Lighting.FogColor = Color3.new(0, 0, 0)
 
 local cue2 = Instance.new("Sound")
 cue2.Parent = game.Workspace
@@ -58,16 +51,17 @@ pcall(function()
 end)
 
 local entityList = {
-    {url = "https://raw.githubusercontent.com/eoyoustme2/dm123/refs/heads/main/Disturbance", delay = 150},
-    {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Dread21231", delay = 85},
-    {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/HUNGERED", delay = 430},
+    {url = "https://raw.githubusercontent.com/talales/Nhankg.-/refs/heads/main/intro%20fragmented", delay = 140},
+    {url = "https://raw.githubusercontent.com/talales/Nhankg_/refs/heads/main/intro%20fragmented", delay = 26},
+    {url = "https://raw.githubusercontent.com/eoyoustme/back/refs/heads/main/Hunger1", delay = 420},
     {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Rebound", delay = 300},
-    {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/revoker", delay = 320},
-    {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Torment12", delay = 380},
+    {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Torment12", delay = 360},
     {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Daze11", delay = 35},
-    {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Struggle", delay = 338},
-    {url = "https://raw.githubusercontent.com/talales/Ngakh/refs/heads/main/perator", delay = 410},
-    {url = "https://raw.githubusercontent.com/talales/Nhankg./refs/heads/main/Fluster",delay = 360},
+    {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Struggle", delay = 420},
+    {url = "https://raw.githubusercontent.com/talales/Ngakh/refs/heads/main/perator", delay = 400},
+    {url = "https://raw.githubusercontent.com/talales/Nhankg./refs/heads/main/Fluster",delay = 230},
+    {url = "https://raw.githubusercontent.com/eoyoustme/Script/refs/heads/main/Detph1",delay = 500},
+    {url = "https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Draft1",delay = 315},
 }
 
 for _, entity in ipairs(entityList) do
